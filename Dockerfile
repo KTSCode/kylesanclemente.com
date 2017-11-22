@@ -9,7 +9,8 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
 # Install wget
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y wget curl git
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qq update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -qq -y install wget curl git
 
 # For some reason, installing Elixir tries to remove this file
 # and if it doesn't exist, Elixir won't install. So, we create it.
