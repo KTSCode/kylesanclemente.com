@@ -6,6 +6,7 @@
   "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], []},
   "db_connection": {:hex, :db_connection, "0.2.4", "b49451dacf03005cd4163f85d77b6666b14378369a6d432810b854ede0e594fe", [:mix], [{:connection, "~> 1.0.2", [hex: :connection, optional: false]}, {:poolboy, "~> 1.5", [hex: :poolboy, optional: true]}, {:sbroker, "~> 0.7", [hex: :sbroker, optional: true]}]},
   "decimal": {:hex, :decimal, "1.1.1", "a8ff5b673105e6cdaca96f799aeefc6f07142881b616c65db16e14e556b16e76", [:mix], []},
+  "distillery": {:hex, :distillery, "1.0.0", "a866a72bf2a3a5f078f5a249017ed951acda88a760d200512f91f585d74db1ec", [], [], "hexpm"},
   "ecto": {:hex, :ecto, "1.1.5", "5c181b737a650117466b0540aa323198a0fb9d518e52718ac2c299f4047187e1", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, optional: false]}, {:mariaex, "~> 0.5.0 or ~> 0.6.0", [hex: :mariaex, optional: true]}, {:poison, "~> 1.0", [hex: :poison, optional: true]}, {:poolboy, "~> 1.4", [hex: :poolboy, optional: false]}, {:postgrex, "~> 0.11.0", [hex: :postgrex, optional: true]}, {:sbroker, "~> 0.7", [hex: :sbroker, optional: true]}]},
   "fs": {:hex, :fs, "0.9.2", "ed17036c26c3f70ac49781ed9220a50c36775c6ca2cf8182d123b6566e49ec59", [:rebar], []},
   "graphql": {:hex, :graphql, "0.2.0", "9cf0591877250718f2eaf051fc1f6677b9c03bb72d52856e5feec55db9f9da68", [:mix], []},
