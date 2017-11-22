@@ -42,6 +42,7 @@ defmodule App.Mixfile do
      {:plug_graphql, "~> 0.2"},
      {:rethinkdb,"~> 0.3.2"},
      {:cors_plug, "~> 1.1"},
+     {:plug, "~> 1.3"},
      {:json, "~> 0.3.0"}
      ]
   end
